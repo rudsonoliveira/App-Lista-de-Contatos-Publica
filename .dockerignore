@@ -1,0 +1,16 @@
+# Arquivos a serem ignorados!
+yarn.lock
+nodemon.json
+Dockerfile
+main.js
+
+# Arquivos ocultos a serem ignorados!
+.dockerignore
+.nvmrc
+.env.example
+.editorconfig
+.vscode
+
+# Pastas a serem ignorados!
+node_modules/
+docker/
