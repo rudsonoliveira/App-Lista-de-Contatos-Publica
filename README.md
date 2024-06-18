@@ -54,19 +54,19 @@ Link Tutorial: https://www.freecodecamp.org/news/node-version-manager-nvm-instal
 
 Comandos para instalar NVM:
 ### Instala a ultima versão:
-'''
+'''ruby
 nvm install lts
 '''
 ### Instala versão especifica (substitui o X.Y.Z pelo número da versão):
-'''
+'''ruby
 nvm install vX.Y.Z
 '''
 ### Listar a versão no NVM:
-'''
+'''ruby
 nvm list
 '''
 ### Usar versão especifica NVM (substitui o X.Y.Z pelo número da versão):
-'''
+'''ruby
 nvm use v X.Y.Z
 '''
 
