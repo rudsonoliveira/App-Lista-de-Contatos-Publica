@@ -54,21 +54,21 @@ Link Tutorial: https://www.freecodecamp.org/news/node-version-manager-nvm-instal
 
 Comandos para instalar NVM:
 ### Instala a ultima versão:
-'''ruby
+```javascript
 nvm install lts
 '''
 ### Instala versão especifica (substitui o X.Y.Z pelo número da versão):
-'''ruby
+```javascript
 nvm install vX.Y.Z
-'''
+```
 ### Listar a versão no NVM:
-'''ruby
+```javascript
 nvm list
-'''
+```
 ### Usar versão especifica NVM (substitui o X.Y.Z pelo número da versão):
-'''ruby
+```javascript
 nvm use v X.Y.Z
-'''
+```
 
 # Instalar o DBeaver para manutenção e gerenciamento do Banco de Dados (DBeaver Community 24.1) : 
 
@@ -77,7 +77,7 @@ Link: https://dbeaver.io/download/
 Para ter acesso ao Banco de Dados é necessário logar e atribuir o modelo de linguagem do Banco;
 Foi usado o PostgreSQL, por ser open source e de fácil gerenciamento.
 
-#Dados para acesso ao DBeaver:
+# Dados para acesso ao DBeaver:
 
 # Postgres
 DB_HOST=127.0.0.1
@@ -86,9 +86,9 @@ DB_USER=admin
 DB_PASS=P@ssw0rd
 DB_PORT=5432
 
-# Para rodar a aplicação é necessário instalar algumas extensões no VS Code para vincular o Banco de Dados e melhor visualização e entendimento do Código:
+## Para rodar a aplicação é necessário instalar algumas extensões no VS Code para vincular o Banco de Dados e melhor visualização e entendimento do Código:
 
-# Para rodar atribuições Linux no Windows:
+## Para rodar atribuições Linux no Windows:
 
 Nome: WSL
 ID: ms-vscode-remote.remote-wsl
@@ -97,7 +97,7 @@ Versão: 0.88.2
 Editor: Microsoft
 Link do Marketplace do VS: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-wsl
 
-# Para manusear Containers:
+## Para manusear Containers:
 
 Nome: Dev Containers
 ID: ms-vscode-remote.remote-containers
@@ -106,7 +106,7 @@ Versão: 0.369.0
 Editor: Microsoft
 Link do Marketplace do VS: https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers
 
-# Para construir e manusear aplicações Docker:
+## Para construir e manusear aplicações Docker:
 
 Nome: Docker
 ID: ms-azuretools.vscode-docker
@@ -115,7 +115,7 @@ Versão: 1.29.1
 Editor: Microsoft
 Link do Marketplace do VS: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 
-# Para visualizar os arquivos, pastas diferenciando os modelos e tipos de linguagem de cada item:
+## Para visualizar os arquivos, pastas diferenciando os modelos e tipos de linguagem de cada item:
 
 Nome: Material Icon Theme
 ID: PKief.material-icon-theme
@@ -124,7 +124,7 @@ Versão: 5.3.0
 Editor: Philipp Kief
 Link do Marketplace do VS: https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme
 
-Clone o repositório:
+## Clone o repositório:
 
 Se você possui uma conta GitHub, faça clone do repositório usando o seguinte comando no seu terminal:
 
@@ -136,9 +136,10 @@ Se você não possui uma conta GitHub, baixe o zip do repositório diretamente d
 
 Abra o projeto no VS Code:
 
-Ciente de todas os parâmetros acima e com o Docker, Node Version Manager (NVM) e Node.JS instalados com suas respectivas versões, execute os comando abaixo no terminal PowerShell:
+## Ciente de todas os parâmetros acima e com o Docker, Node Version Manager (NVM) e Node.JS instalados com suas respectivas versões, execute os comando abaixo no terminal PowerShell:
 
-- npm run dev
+```javascript
+npm run dev
 
 Logo execute o comando abaixo para alimentar o Banco de Dados e fazer as Migrações:
 
