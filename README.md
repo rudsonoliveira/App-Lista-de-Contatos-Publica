@@ -13,12 +13,12 @@ Visualizar detalhes do contato: Acesse e visualize informações completas do co
 Com interface administrativa web atualizada em tempo real, e com registro de log (Um log, também conhecido como registro, é um arquivo que registra eventos, atividades ou mudanças em um sistema ou aplicativo.)
 
 Interface administrativa web: [localhost](http://localhost:3000/admin)
-Usuário Padrão: admin@admin.com
-Senha: admin
+- Usuário Padrão: admin@admin.com
+- Senha: admin
 
 ## Informações:
 
-A aplicação foi criada com base do modelo de bootstrap para gerenciamento de dashboard e dados, Stislas.
+- A aplicação foi criada com base do modelo de bootstrap para gerenciamento de dashboard e dados, Stislas.
 https://demo.getstisla.com/
 https://github.com/stisla/stisla
 
@@ -49,24 +49,24 @@ https://nodejs.org/en/
 Aplicação roda está rodando na versão: 20.11.0
 Link tutorial: https://www.alura.com.br/artigos/como-instalar-node-js-windows-linux-macos?utm_term=&utm_campaign=%5BSearch%5D+%5BPerformance%5D+-+Dynamic+Search+Ads+-+Artigos+e+Conte%C3%BAdos&utm_source=adwords&utm_medium=ppc&hsa_acc=7964138385&hsa_cam=11384329873&hsa_grp=111087461203&hsa_ad=687448474447&hsa_src=g&hsa_tgt=aud-527303763294:dsa-2276348409543&hsa_kw=&hsa_mt=&hsa_net=adwords&hsa_ver=3&gad_source=1&gclid=CjwKCAjwyJqzBhBaEiwAWDRJVLTbqaGjqFuZHWMAPg6smab04myklaJlNr5b-FPox0AA6he9w5H9dRoC2i0QAvD_BwE
 
--NVM (Node Version Manager):
+- NVM (Node Version Manager):
 Link Tutorial: https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/
 
 Comandos para instalar NVM:
 ### Instala a ultima versão:
-```json
+```javascript
 nvm install lts
 ```
 ### Instala versão especifica (substitui o X.Y.Z pelo número da versão):
-```json
+```javascript
 nvm install vX.Y.Z
 ```
 ### Listar a versão no NVM:
-```json
+```javascript
 nvm list
 ```
 ### Usar versão especifica NVM (substitui o X.Y.Z pelo número da versão):
-```json
+```javascript
 nvm use v X.Y.Z
 ```
 
