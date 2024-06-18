@@ -54,19 +54,19 @@ Link Tutorial: https://www.freecodecamp.org/news/node-version-manager-nvm-instal
 
 Comandos para instalar NVM:
 ### Instala a ultima versão:
-```javascript
+```json
 nvm install lts
-'''
+```
 ### Instala versão especifica (substitui o X.Y.Z pelo número da versão):
-```javascript
+```json
 nvm install vX.Y.Z
 ```
 ### Listar a versão no NVM:
-```javascript
+```json
 nvm list
 ```
 ### Usar versão especifica NVM (substitui o X.Y.Z pelo número da versão):
-```javascript
+```json
 nvm use v X.Y.Z
 ```
 
@@ -80,12 +80,13 @@ Foi usado o PostgreSQL, por ser open source e de fácil gerenciamento.
 # Dados para acesso ao DBeaver:
 
 # Postgres
+```postgresql
 DB_HOST=127.0.0.1
 DB_NAME=intranet
 DB_USER=admin
 DB_PASS=P@ssw0rd
 DB_PORT=5432
-
+```
 ## Para rodar a aplicação é necessário instalar algumas extensões no VS Code para vincular o Banco de Dados e melhor visualização e entendimento do Código:
 
 ## Para rodar atribuições Linux no Windows:
@@ -138,17 +139,17 @@ Abra o projeto no VS Code:
 
 ## Ciente de todas os parâmetros acima e com o Docker, Node Version Manager (NVM) e Node.JS instalados com suas respectivas versões, execute os comando abaixo no terminal PowerShell:
 
-```javascript
+```json
 npm run dev
-
+```
 Logo execute o comando abaixo para alimentar o Banco de Dados e fazer as Migrações:
-
-- npm run seed
-
+```json
+npm run seed
+```
 E depois o comando para executar a aplicação:
-
-- npm run start
-
+```json
+npm run start
+```
 E abra a aplicação no navegador pela porta 3000:
 
 - http://localhost:3000/ # Interface do usuário!
