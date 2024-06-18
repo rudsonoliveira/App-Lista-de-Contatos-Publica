@@ -139,15 +139,15 @@ Abra o projeto no VS Code:
 
 ## Ciente de todas os parâmetros acima e com o Docker, Node Version Manager (NVM) e Node.JS instalados com suas respectivas versões, execute os comando abaixo no terminal PowerShell:
 
-```json
+```javascript
 npm run dev
 ```
 Logo execute o comando abaixo para alimentar o Banco de Dados e fazer as Migrações:
-```json
+```javascript
 npm run seed
 ```
 E depois o comando para executar a aplicação:
-```json
+```javascript
 npm run start
 ```
 E abra a aplicação no navegador pela porta 3000:
@@ -157,7 +157,7 @@ E abra a aplicação no navegador pela porta 3000:
 - http://localhost:3000/admin # Interface do Administrador!
 
 
-Teste as funcionalidades:
+# Teste as funcionalidades:
 
 Explore as funcionalidades do aplicativo, adicionando, editando, excluindo, pesquisando e visualizando seus contatos e verificando os registro de log.
 
@@ -165,10 +165,10 @@ Contribuindo com o projeto:
 
 Se você deseja contribuir com o código ou sugerir melhorias para o aplicativo, sinta-se à vontade para abrir um issue no repositório GitHub ou enviar um pull request com suas modificações.
 
-Esperamos que você goste do AppListaDeContatos!
+# Esperamos que você goste do AppListaDeContatos!
 
 
-
+```dockerfile
 yarn sequelize-cli db:seed:undo
 
 npx sequelize-cli db:seed:all
@@ -180,5 +180,4 @@ docker build . -t intranet:1.0.0
 docker tag intranet:1.0.0 10.1.4.251:5000/intranet:1.0.0
 
 docker push 10.1.4.251:5000/intranet:1.0.0
-
-Teste
+```
