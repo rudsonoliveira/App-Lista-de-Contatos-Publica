@@ -3,7 +3,7 @@
 AppListaDeContatos: Gerencie seus contatos com facilidade!
 O AppListaDeContatos é um aplicativo web totalmente responsivo que permite gerenciar seus contatos de forma eficiente e intuitiva. Adicione, edite, exclua, pesquise e visualize seus contatos com simplicidade.
 
-Funcionalidades:
+### Funcionalidades:
 
 Adicionar contatos: Insira novos contatos com nome, telefone, email.
 Editar contatos: Modifique as informações de seus contatos existentes.
