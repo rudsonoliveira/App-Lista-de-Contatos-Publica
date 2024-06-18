@@ -3,7 +3,7 @@
 AppListaDeContatos: Gerencie seus contatos com facilidade!
 O AppListaDeContatos é um aplicativo web totalmente responsivo que permite gerenciar seus contatos de forma eficiente e intuitiva. Adicione, edite, exclua, pesquise e visualize seus contatos com simplicidade.
 
-### Funcionalidades:
+## Funcionalidades:
 
 Adicionar contatos: Insira novos contatos com nome, telefone, email.
 Editar contatos: Modifique as informações de seus contatos existentes.
@@ -16,7 +16,7 @@ Interface administrativa web: [localhost](http://localhost:3000/admin)
 Usuário Padrão: admin@admin.com
 Senha: admin
 
-Informações:
+## Informações:
 
 A aplicação foi criada com base do modelo de bootstrap para gerenciamento de dashboard e dados, Stislas.
 https://demo.getstisla.com/
@@ -39,9 +39,8 @@ Links para maiores informações sobre Segurança da informação e Auditoria:
 - https://blog.academiain1.com.br/auditoria-em-seguranca-da-informacao/
 
 
-
-Pré-requisitos:
-Instalar:
+# Pré-requisitos:
+## Instalar:
 -Docker desktop:
 https://www.docker.com/products/docker-desktop/
 
@@ -54,21 +53,22 @@ Link tutorial: https://www.alura.com.br/artigos/como-instalar-node-js-windows-li
 Link Tutorial: https://www.freecodecamp.org/news/node-version-manager-nvm-install-guide/
 
 Comandos para instalar NVM:
-# Instala a ultima versão:
-
+### Instala a ultima versão:
+'''
 nvm install lts
-
-# Instala versão especifica (substitui o X.Y.Z pelo número da versão):
-
+'''
+### Instala versão especifica (substitui o X.Y.Z pelo número da versão):
+'''
 nvm install vX.Y.Z
-
-# Listar a versão no NVM:
-
+'''
+### Listar a versão no NVM:
+'''
 nvm list
-
-# Usar versão especifica NVM (substitui o X.Y.Z pelo número da versão):
-
+'''
+### Usar versão especifica NVM (substitui o X.Y.Z pelo número da versão):
+'''
 nvm use v X.Y.Z
+'''
 
 # Instalar o DBeaver para manutenção e gerenciamento do Banco de Dados (DBeaver Community 24.1) : 
 
